@@ -1,0 +1,58 @@
+.cardimages{
+    position: absolute;
+    background-image: url(/pexels-nathan-j-hilton-4277509.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    min-height: 250px;
+    
+}
+.cards p{
+    position: absolute;
+    font-size: 15px;
+    top: 250px;
+    z-index: 2;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.cards p:nth-child(2){
+    color: #cc0909;
+    position: absolute;
+    top: 285px;
+    padding-bottom: 5px;
+}
+.cardimages:nth-child(2){
+    position: absolute;
+    background-image: url(/pexels-terrance-barksdale-6692038.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    min-height: 250px;
+    left: 300px
+
+}
+.cardimages:nth-child(3){
+    position: absolute;
+    background-image: url(/pexels-nathan-j-hilton-4277509.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    min-height: 250px;
+    left: 600px;
+
+}
+.cardimages:nth-child(4){
+    position: absolute;
+    background-image: url(/pexels-nathan-j-hilton-4277509.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    min-height: 250px;
+    left: 900px;
+
+}
+

@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+   
+
+.container{
+    background-image: url(/pexels-shyam-mishra-16100536.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    height: 40px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: flex-end;
+    position: relative;
+    background-color: inherit;
+
+}
+.logo{
+    position: absolute;
+    margin-right:1200px;
+}
+.logo img{
+    color: invert;
+    height: 60px;
+}
+nav a{
+    margin-right: 50px;
+    position: relative;
+    column-gap: 20px;
+    right: 10px;
+    text-decoration: none;
+    color: rgb(245, 7, 7);
+    font-size: 30px; 
+    font-weight: 700; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+nav a::before{
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    background-color: #8630a8;
+    height: 3px;
+    width: 0;
+    transition: all 0.5s;
+    border-radius: 1.5px;
+
+}
+nav a:hover{
+    color: black;
+    opacity: 0.8;
+}
+nav a:hover::before{
+    width: 100%;
+}
+.cards{
+    cursor: pointer;
+    margin-top: 280px;
+    position: relative;
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    margin-bottom: 5px;
+}
+.imagecards img{
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+}
+.imagecards{
+    height: 320px;
+    background-color: #8630a8;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+
+
+
+.cont2{
+    height: 100vh;
+    background-image: url(/pexels-deybson-mallony-9537431.jpg);
+
+
+
+
+
+
+
+
+
+
+
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: #d1e5ff;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #dab231;
+    border-radius: 5px;
+}
