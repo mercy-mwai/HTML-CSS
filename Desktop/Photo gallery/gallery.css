@@ -1,0 +1,19 @@
+body{
+    background-repeat:repeat;
+    background-position: center;
+    height: 100vh;
+    background: linear-gradient(188deg, #3ae4e1 8%,#7d4bf3 100%);
+}
+.container{
+    display: flex;
+    width: 98%;
+    gap: 1rem;
+    justify-content: center;
+    margin: 5rem auto 0  auto;
+    flex-wrap: wrap;
+
+}
+.box img {
+    width: 300px; /* Set the width of the image */
+    height: auto; /* Automatically calculate the height based on the aspect ratio */
+}
