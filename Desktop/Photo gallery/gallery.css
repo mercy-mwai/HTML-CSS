@@ -1,19 +1,40 @@
 body{
-    background-repeat:repeat;
-    background-position: center;
-    height: 100vh;
-    background: linear-gradient(188deg, #3ae4e1 8%,#7d4bf3 100%);
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia',serif;
 }
 .container{
     display: flex;
-    width: 98%;
-    gap: 1rem;
+    flex-direction: column;
     justify-content: center;
-    margin: 5rem auto 0  auto;
-    flex-wrap: wrap;
-
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
 }
-.box img {
-    width: 300px; /* Set the width of the image */
-    height: auto; /* Automatically calculate the height based on the aspect ratio */
+.container.header{
+    width:50%;
+    padding-bottom:50px;
+}
+.container .header h1{
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222;
+}
+.container .header h1 span{
+font-weight: 100;
+}
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+.container .dream {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: auto;
+   
 }
