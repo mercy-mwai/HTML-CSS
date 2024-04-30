@@ -1,0 +1,27 @@
+body{
+    background-color: cornflowerblue;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+form{
+    max-width: 500px;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+input[type="submit"]{
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em; 
+    font-size: 1.1em;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+}
